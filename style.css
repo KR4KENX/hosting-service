@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #222;
+    color: #E0E0E0;
+}
+.offer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     /* to odpowiada za ustawienie w środku i obok siebie jak inline*/
+}
+.plan{
+    padding: 2.5rem;
+    margin: 1em;
+    background-color: #333;
+    border-radius: 1em;
+    text-align: center;
+    overflow: hidden;
+}
+.plan h2{
+    margin-bottom: .8em;
+    font-size: x-large;
+}
+.plan .price{
+    margin-bottom: 1rem;
+    font-size: xx-large;
+}
+.plan ul.details{
+    list-style-type: none;
+    text-align: left;
+}
+.plan ul.details li{
+    margin: 0.5em;
+}
+.fa-check{
+    color: #6ab04c;
+    margin-right: 1em;
+}
+.fa-times{
+    color: #eb4d4b;
+    margin-right: 1em;
+}
+.plan a{
+    display: block;
+    margin-top: 1em;
+    padding: .8em;
+    color: white;
+    background-color: #3e672d;
+    text-decoration: none;
+    border-radius: .5em;
+    font-size: 1.2em;
+    border: 2px solid #6ab04c;
+}
+.plan.top{
+    border: 2px solid #6ab04c;
+}
+.listing-badges{
+    position: relative;
+}
+.plan.top span{
+    padding: .3em;
+    font-size: large;
+    color: white;
+    position: absolute;
+    width: 10em;
+    left: -5em;
+    top: -.5em;
+    transform: rotate(-45deg);
+    background-color: #6ab04c;
+}
